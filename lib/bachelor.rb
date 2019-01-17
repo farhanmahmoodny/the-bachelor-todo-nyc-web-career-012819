@@ -52,6 +52,5 @@ def get_average_age_for_season(data, season)
     sum += num
     count += 1
   end
-  total = (sum / array.length)
-  total.round
+  (sum / array.length)
 end

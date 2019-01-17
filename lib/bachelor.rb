@@ -16,7 +16,7 @@ def get_contestant_name(data, occupation)
   a = 0
   c = 0
   until a == array.length
-    until c == array[count].length
+    until c == array[a].length
     if array[a][c]["occupation"] == occupation
       return array[a][c]["name"]
       c += 1

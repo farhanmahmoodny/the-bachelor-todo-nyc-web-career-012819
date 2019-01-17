@@ -17,10 +17,12 @@ def get_contestant_name(data, occupation)
   c = 0
   until a == array.length
     until c == array[count].length
-    if array[a][c][]
-  
-
-  
+    if array[a][c]["occupation"] == occupation
+      return array[a][c]["name"]
+      c += 1
+    end
+    a += 1
+  end
 end
 
 def count_contestants_by_hometown(data, hometown)

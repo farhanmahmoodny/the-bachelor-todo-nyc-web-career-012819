@@ -1,5 +1,5 @@
 def get_first_name_of_season_winner(data, season)
-  array = [season]
+  array = season
   count = 0
   until count == array.length
   hash = array[count]

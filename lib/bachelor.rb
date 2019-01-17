@@ -44,5 +44,13 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  # code here
+  sum = 0
+  array = data[season]
+  count = 0
+  until count == array.length
+  num = array[count]["age"].to_i
+    sum += num
+    count +=1
+  end
+  sum / array.length
 end

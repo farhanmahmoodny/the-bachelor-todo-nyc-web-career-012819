@@ -50,7 +50,7 @@ def get_average_age_for_season(data, season)
   until count == array.length
   num = array[count]["age"].to_i
     sum += num
-    count +=1
+    count += 1
   end
   sum / array.length
 end
